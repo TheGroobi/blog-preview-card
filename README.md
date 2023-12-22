@@ -19,8 +19,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: []([https://your-solution-url.com](https://github.com/TheGroobi/blog-preview-card))
-- Live Site URL: []([[https://your-live-site-url.com](https://github.com/TheGroobi/blog-preview-card)](https://blog-preview-card-weld.vercel.app/))
+- Solution URL: ([https://your-solution-url.com](https://github.com/TheGroobi/blog-preview-card))
+- Live Site URL: ([[https://your-live-site-url.com](https://github.com/TheGroobi/blog-preview-card)](https://blog-preview-card-weld.vercel.app/))
 
 ## My process
 Really easy challange, putting everything together into containers makes it easy to create padding and spacing. Positioning it with flexbox inside a 100vh x 100% container makes it always centered, and using em values as padding/margin feels way more reliable.
