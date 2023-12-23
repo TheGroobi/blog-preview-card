@@ -10,26 +10,18 @@ body {
     font-size: 16px;
     margin: 0;
     background-color: var(--yellow-main);
-    overflow: hidden;
-}
-
-.container {
-    height: 100vh;
-    width: 100%;
     display: flex;
     align-items: center; 
     justify-content: center;
+    min-height: 100vh;
 }
 
 .items-container {
     width: 336px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 1.4em;
-    background-color: var(--white);
     border-radius: 20px;
+    background-color: var(--white);
     border: solid 1px var(--black);
     box-shadow: 0.5em 0.5em var(--black);
 }
@@ -49,13 +41,13 @@ svg {
     width: 20%;
 }
 
-p {
-    color: var(--black)!important;
-    margin-top: 0em;
+.body-text {
+    color: var(--black);
 }
 
 .hero {
     font-size: 1.5em;
+    margin: 0.8em 0;
 }
 
 .hero:hover {
@@ -63,9 +55,9 @@ p {
     cursor: pointer;
 }
 
-.body-text {
-    color: var(--gray);
-    line-height: 1.6;
+.body-text-gray {
+    line-height: 1.5;
+    color: var(--gray)
 }
 
 .author-container {
@@ -75,9 +67,6 @@ p {
 
 img {
     width: 10%;
-}
-span, img {
-    display: inline-block;
 }
 
 span { 
